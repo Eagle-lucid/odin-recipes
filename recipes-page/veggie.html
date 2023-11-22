@@ -3,22 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>odin-recipes</title>
+        <link rel="stylesheet" href="../style.css">
     </head>
 
     <body>
         
-        <p><h3>Veggie Sausage Strata</h3></p>
+        <h3>Veggie Sausage Strata</h3>
 
-        <!-- i encounter a problem while opening veggie picture file, problem:Error loading webview: Error: Could not register service workers: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state. i solved it by exiting vs code and restarting it back and it worked just fine. -->
+        <!-- i encounter a problem while opening veggie picture file, problem:Error loading webview: Error: Could not register service workers: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state. i solved it by exiting vs code and restarting it worked just fine. -->
 
-        <img src="../images/veggie.jpg" alt="veggie Sausage Strata" height="250" width="230">
+        <img class="finished-food-image" src="../images/veggie.jpg" alt="veggie Sausage Strata">
 
-        <p>As a retired home economics teacher, I've made quite a few recipes through the years. This hearty casserole is a favorite in my family.</p>
+        <p class="casserole">As a retired home economics teacher, I've made quite a few recipes through the years. This hearty casserole is a favorite in my family.</p>
 
-        <p><h3>Ingredients</h3></p>
+        <div>
+            <h3>Ingredients</h3>
+        </div>
 
-        <p>
-            <ul>
+        <div class="ingre-list">
+
+            <ul class="lists">
                 <li>2 pounds bulk Italian sausage</li>
                 <li>2 medium green peppers, coarsely chopped</li>
                 <li>1 medium onion chopped</li>
@@ -33,18 +37,28 @@
                 <li>2 cups shredded cheddar cheese</li>
                 <li>1 medium zucchini, cut into 1/4-inch slices</li>
             </ul>
-        </p>
 
-        <p>Watch <a href=" https://www.youtube.com/watch?v=vpoI4J3CGmE" target="_blank" rel="noopener noreferrer">here</a></p>
+        </div>
 
-        <p><h3>Directions</h3></p>
+        <p>Watch a tutorial video <a href=" https://www.youtube.com/watch?v=vpoI4J3CGmE" target="_blank" rel="noopener noreferrer">here</a></p>
+         
+        <!-- the anchor element is used to redirect to video tutorial on how to prepare these breakfast  -->
+        <div>
+            <h3>Direction</h3>
+        </div>
 
-        <p>
-            <ol>
+        <div class="direc">
+
+            <ol class="steps">
                 <li>In a large skillet, cook the sausage, green peppers and onion over medium heat until meat is no longer pink; drain. Meanwhile, in a large bowl, whisk the eggs, milk, salt, pepper and mustard. Stir in the sausage mixture, bread, spinach, cheeses and zucchini.</li>
                 <li>Transfer mixture to a greased 13x9-in. baking dish. Cover and refrigerate overnight.</li>
                 <li>Remove from the refrigerator 30 minutes before baking. Cover and bake at 350° for 40 minutes. Uncover; bake 40-45 minutes longer or until a knife inserted in the center comes out clean.</li>
             </ol>
+
+        </div>
+
+        <p>
+            <a href="../index.html"><strong>Return</strong></a>
         </p>
 
     </body>

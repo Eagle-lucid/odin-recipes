@@ -3,56 +3,77 @@
     <head>
         <meta charset="UTF-8">
         <title>odin-recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        
+
         <h1>Odin Recipes</h1>
 
-        <h3><strong><em>Italian breakfast foods & recipes</em></strong></h3>
+        <h3>Italian breakfast foods & recipes</h3>
 
-        <p><strong>Italian breakfast is "fast" and “sweet”. It is never too complicated because, in the morning, Italians do not have time. While we take our time for lunches and dinners, breakfast is not the most important meal of the day. Breakfast in Italy is called <em>La Colazione</em></strong></p>
+         <!-- the span element is use to identify what breakfast is called in Italy... -->
+        <p>
+            <strong>Italian breakfast is "fast" and “sweet”. It is never too complicated because, in the morning, Italians do not have time. While we take our time for lunches and dinners, breakfast is not the most important meal of the day. Breakfast in Italy is called <span><em>La Colazione.</em></span></strong>
+        </p>
 
-        <p>One of the best Chef that makes the most delightful and scrumptious breakfast is:</p>
-        <p><strong><em>Chef Teresa Buongiorno</em></strong></p>
+        <p>One of the best Chef that makes the most delightful and scrumptious breakfast is:
+            
+        </p>
+       
+        <p>
+            <strong>
+                <em>Chef Teresa Buongiorno</em>
+            </strong>
+        </p>
 
-        <img src="./images/teresa.jpg" alt="Chef Teresa Buongiorno" width="220" height="250">
+        <img class="teresa" src="./images/teresa.jpg" alt="Chef Teresa Buongiorno">
 
-        <p><strong>Chef Teresa Buongiorno
+        <div class="chef">
+            <strong class="profile">Chef Teresa Buongiorno
             profile
-        </strong></p>
+            </strong>
+        
+        </div>
 
-        <!--Any correction please identify  -->
+        <!--i made use of strong element to signify how important some of the text are!!! -->
 
-        <p><strong>A true ambassador for Puglia's modern food scene, Teresa Buongiorno's inventive, self-taught style of cooking is a breath of fresh air. By bringing the region's traditional dishes into the 21st century, she helped boost the reputation of an area already famous for its fantastic food. Read more on her profile <a href="https://www.greatitalianchefs.com/chefs/teresa-buongiorno" target="_blank" rel="noopener noreferrer">Chef Teresa Buongiorno </a></strong></p>
+        <p id="about">
+            <strong>A true ambassador for Puglia's modern food scene, Teresa Buongiorno's inventive, self-taught style of cooking is a breath of fresh air. By bringing the region's traditional dishes into the 21st century, she helped boost the reputation of an area already famous for its fantastic food. Read more on her profile <a href="https://www.greatitalianchefs.com/chefs/teresa-buongiorno" target="_blank" rel="noopener noreferrer">Chef Teresa Buongiorno </a></strong>
+        </p>
 
         <!-- i missed my strong element on above paragraph then i added it back -->
 
-        <p><h3><strong>3 Italian Breakfast Foods & Recipes</strong></h3></p>
+        <h3>Traditional foods for breakfast in Italy</h3>
 
-        <img src="./images/italian-breakfast.jpg" alt="italian-breakfast foods" width="300" height="320">
+        <img class="breakfast" src="./images/italian-breakfast.jpg" alt="italian-breakfast foods">
 
-        <p><strong>Traditional Italian foods are more than pasta and pizza. Italy is famous for using quality ingredients and it's blending of meats, cheeses, and sauces.</strong></p>
-
-        <p><h3>Traditional foods for breakfast in Italy</h3></p>
-
-        <p>
-            <ul>
-                <li><a href="./recipes-page/torte.html">Italian Brunch Torte</a></li>
-            </ul>
+        <p id="about-italian-food">
+            
+            <strong>Traditional Italian foods are more than pasta and pizza. Italy is famous for using quality ingredients and it's blending of meats, cheeses, and sauces.</strong>
         </p>
 
-        <p>
-            <ul>
-                <li><a href="./recipes-page/eggs.html">Italian Baked Eggs & Sausage</a></li>
-            </ul>
-        </p>
+        <h3>
+            <strong>3 Italian Breakfast Foods & Recipes</strong>
+        </h3>
+          
+        <!-- the div element is use to contain the list of breakfast... -->
+        <div class="list-on-list">
 
-        <p>
-            <ul>
-                <li><a href="./recipes-page/veggie.html">Veggie Sausage Strata</a></li>
+        <ul class="list">
+                <li>
+                    <a href="./recipes-page/torte.html">Italian Brunch Torte</a>
+                </li>
+            
+                <li>
+                    <a href="./recipes-page/eggs.html">Italian Baked Eggs & Sausage</a>
+                </li>
+            
+                <li>
+                    <a href="./recipes-page/veggie.html">Veggie Sausage Strata</a>
+                </li>
             </ul>
-        </p>
+        </div>
 
         <p>Thank you for yor time, see you next time...</p>
 
